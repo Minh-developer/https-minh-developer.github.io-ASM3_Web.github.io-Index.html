@@ -1,0 +1,41 @@
+@media screen and (max-width: 576px) {
+    .p{
+        display: block;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .box-spc{
+        display: none;
+    }
+
+    .in4{
+        display: block;
+    }
+
+    .i4{
+        margin-top: -20px;
+        padding-top: -500px;
+    }
+
+    .in5{
+        display: grid; placeitems:center;
+        grid-template-columns: repeat(1, 120px);
+        gap: 200px;
+    }
+
+    .image-box{
+        display: block;
+    }
+
+    .social-icons{
+        margin-top: 940px;
+    }
+
+    .certificate-image{
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,569 @@
+.container {
+    display: flex;
+    flex-direction: row; /* Sắp xếp theo hàng ngang trên màn hình lớn */
+    gap: 10px;
+}
+
+.body{
+    font-family:sans-serif ;
+    padding: 1050px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.b{
+    width: 100%;
+    height: auto;
+}
+
+.name, .title {
+    margin: 0; /* Loại bỏ mọi khoảng cách bên ngoài */
+    line-height: 1; /* Giảm khoảng cách giữa các dòng */
+    font-size: 16px; /* Kích thước font để dễ kiểm tra */
+}
+
+.title {
+    margin-top: 0; /* Đảm bảo không có khoảng cách bên trên */
+    font-size: 10px;
+    color:#E8E8E8;
+}
+
+
+
+.box-spc{
+    width: 200px;
+    padding: 5px;
+    /* display: flex; */
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+
+.box1{
+    text-align: center;
+    padding: 5px;
+}
+
+.box2{
+    text-align: center;
+    padding: 5px;
+}
+
+/* .box3{
+    padding-left: 30px;
+    width: 120px;
+    height: auto;
+} */
+
+.box4{
+    text-align: center;
+    padding: 5px;
+}
+
+.box5{
+    height: 12px;
+    text-align: center;
+    padding: 5px;
+    padding-right: 90px;
+    padding-bottom: 1px;
+}
+
+.container{
+    display: flex;
+}
+
+.box img {
+    margin-right: 5px; 
+}
+
+/* .p1{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    
+} */
+
+.p1 p{
+    color: #686868	;
+    font-size: 11px;
+}
+
+.p {
+    display: flex; 
+}
+
+.p1 {
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    flex: 2.7; 
+    /* box-sizing: border-box;  */
+    /* flex: 4; */
+    margin-bottom: 20px;
+}
+
+.p2{
+    padding-top: 20px;
+    background-color: #F0F0F0;
+    flex: 3;
+    margin-bottom: 20px;
+}
+
+.p2 p{
+    font-size: 11px;
+}
+
+.p2 .f4{
+    display: none;
+}
+
+.a{
+    font-size: 20px;
+    color: black;
+}
+
+.custom-bullets li::marker {
+    color: rgb(0, 178, 248); 
+}
+
+
+
+.highlight-text{
+    color: #686868;
+}
+
+.highlight-text2{
+    color: #686868;
+    font-size: 12px;
+}
+
+.l1{
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.i1{
+    border: 1px solid #E8E8E8;
+    width: 300px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.exp{
+    font-size: 20px;
+    padding-left: 23px;
+}
+
+.i2{
+    border: 1px solid #E8E8E8;
+    width: 300px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.in4{
+    display: grid; placeitems:center;
+    grid-template-columns: repeat(2, 120px);
+    gap: 200px;
+}
+
+.i3{
+    margin-top: -220px;
+    border: 1px solid #E8E8E8;
+    width: 300px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.in5{
+    display: grid; placeitems:center;
+    grid-template-columns: repeat(2, 120px);
+    gap: 200px;
+}
+
+.i4{
+    margin-top: -220px;
+    border: 1px solid #E8E8E8;
+    width: 300px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.tt{
+    font-size: 30px;
+}
+
+.thanhtuu{
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 10px; 
+    align-items: center; 
+}
+
+.bp{
+    display: grid; placeitems:center;
+    grid-template-columns: repeat(2, 700px);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.p3{
+    border-right: 1px solid orange;
+}
+
+.bp2{
+    border-top: 1px solid orange;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 10px; 
+    align-items: center;
+}
+
+.hp{
+    background-color: #F8F8F8;
+    padding: 90px;
+    margin: 0 auto;
+}
+
+.duan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.du_an{
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 900px;
+    height: auto;
+}
+
+.pc{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mpc{
+    padding-top: -10px;
+    align-items: center;
+}
+
+.bin4{
+    padding-left: 20%;
+}
+
+.hop{
+    border: 1px white;
+    width: 90px;
+    padding-left: 690px;
+}
+
+.anhh{
+    height: 950px;
+    width: 800px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around; /* Chia đều khoảng cách giữa các biểu tượng */
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Màu nền nhạt */
+}
+  
+.social-icons a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-decoration: none;
+    color: #6c757d; 
+    font-size: 14px;/
+}
+  
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px; 
+}
+  
+.social-icons a:hover {
+    color: #000;
+}
+  
+.social-icons img {
+    transition: transform 0.3s ease;
+}
+  
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+  
+.image-box {
+    width: 500px; 
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.image-box img {
+    width: 100%; /* Đặt chiều rộng của ảnh bằng 100% để phù hợp với box */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ ảnh */
+    display: block;
+}
+
+.content-box {
+    padding: 20px; /* Khoảng cách bên trong box */
+    border-top: 1px solid #E8E8E8; /* Đường viền trên giữa ảnh và box */
+    border-left: 1px solid #E8E8E8; /* Đường viền trên giữa ảnh và box */
+    border-right: 1px solid #E8E8E8; /* Đường viền trên giữa ảnh và box */
+    border-bottom: 1px solid #E8E8E8; /* Đường viền trên giữa ảnh và box */
+}
+
+.content-box h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.content-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.description p {
+    font-size: 14px;
+    color: #555;
+    padding: 10px 0;
+    border-bottom: 1px solid #E8E8E8; /* Viền giữa các đoạn văn */
+    width: 100%;
+}
+
+.description p:last-child {
+    border-bottom: none; /* Xóa viền cuối cùng */
+    width: 100%;
+}
+
+.vien5{
+    width: 100%;
+    height: 2px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    color: #555;
+    border-top: 1px #E8E8E8;
+}
+.icon-text span, .icon-text i {
+    margin-right: 10px; /* Khoảng cách giữa các icon và chữ */
+}
+.icon-text .year {
+    background-color: #00aaff; /* Màu nền xanh cho năm 2021 */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px; /* Bo tròn cho nền */
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-between; /* Khoảng cách giữa các box */
+    gap: 20px; /* Khoảng cách giữa các box */
+    display: flex;
+    justify-content: center; /* Căn giữa các project theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa các box */
+    max-width: 1200px; /* Giới hạn chiều rộng của container */
+    width: 100%; /* Đảm bảo container chiếm hết chiều rộng */
+}
+
+.dan {
+    padding: 20px;
+    text-align: center;
+}
+
+.tt3{
+    display: flex;
+    justify-content: center; /* Căn giữa các project theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa các box */
+    max-width: 1200px; /* Giới hạn chiều rộng của container */
+    width: 100%; /* Đảm bảo container chiếm hết chiều rộng */
+    font-size: 30px;
+}
+
+
+.hobby-icon {
+    font-size: 22px;
+    color: #00aaff;
+    border: 2px solid #00aaff;
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.hobby-icon:hover {
+    background-color: #00aaff;
+    color: white;
+}
+
+.hobby-text {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.hobby-containo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.language-container {
+    width: 300px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Thiết lập tiêu đề */
+.language-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #555;
+}
+
+/* Thiết lập kiểu cho từng dòng ngôn ngữ */
+.language-item {
+    margin-top: 15px;
+}
+
+.language-name {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Thanh tiến trình */
+/* Cập nhật CSS của thanh tiến trình */
+.progress-bar {
+    width: 100%;
+    height: 3px;
+    background-color: #e0e0e0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    height: 100%;
+    background-image: repeating-linear-gradient(
+        to right,
+        #007bff,
+        #007bff 10px,
+        #e0e0e0 10px,
+        #e0e0e0 15px
+    );
+}
+
+
+
+/* Đặt phần trăm từng thanh tiến trình */
+.english-level {
+    width: 70%; /* IELTS 7.0 */
+}
+
+.japanese-level {
+    width: 50%; /* JLPT N4 */
+}
+
+.view-more-btn2 {
+    background-color: #f7f7d4; /* Màu nền nhạt */
+    color: #333; /* Màu chữ */
+    border: none;
+    border-radius: 25px; /* Bo góc */
+    padding: 8px 20px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.view-more-btn2 i {
+    font-size: 12px;
+    margin-right: 5px; /* Khoảng cách giữa icon và chữ */
+}
+
+.view-more-btn2:hover {
+    background-color: #e8e8b0; /* Màu nền khi hover */
+}
+
+.view-more-btn2 {
+    display: none;
+}
+
+/* Hiển thị nút khi di chuột vào box */
+.i1:hover .view-more-btn2 {
+    display: inline-flex;
+}
+
+.i2:hover .view-more-btn2 {
+    display: inline-flex;
+}
+
+.i3:hover .view-more-btn2 {
+    display: inline-flex;
+}
+
+.i4:hover .view-more-btn2 {
+    display: inline-flex;
+}
+
+
+.i1 .antn{
+    display: none;
+}
+
+.i2 .antn{
+    display: none;
+}
+
+.i3 .antn{
+    display: none;
+}
+
+.i4 .antn{
+    display: none;
+}
+
+.certificate-image {
+    display: flex;
+    width: 550px;
+    height: 300px;
+}
+
+.certificate-container {
+    display: flex; /* Sắp xếp ảnh và văn bản nằm ngang */
+    align-items: flex-start; /* Căn chỉnh phần tử theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa ảnh và văn bản */
+    width: 100%;
+}
+
+.certificate-details {
+    max-width: 500px; /* Giới hạn độ rộng của phần văn bản (tùy chỉnh) */
+}
+
+
+
+.text-container{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    flex: 2.7; 
+    padding: 20px;
+    /* box-sizing: border-box;  */
+    /* flex: 4; */
+    margin-bottom: 20px;
+}

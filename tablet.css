@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+    .p{
+        display: block;
+    }   
+
+    .container{
+        flex-direction: column;
+    }
+
+    .box-spc{
+        display: none;
+    }
+
+    .image-box{
+        display: block;
+    }
+
+    .social-icons{
+        margin-top: 1380px;
+    }
+
+    .certificate-image{
+        width: 200px;
+        height: 200px;
+    }
+}
